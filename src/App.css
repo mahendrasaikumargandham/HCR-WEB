@@ -1,38 +1,105 @@
-.App {
+.app {
+  /* background: #006D5B; */
+  background: #04333C;
+  height: 100vh;
+}
+.app-component {
   text-align: center;
+  position: absolute;
+  width: 95%;
+  height: 90vh;
+  background: linear-gradient(#81FFEA, #54FFE3,#26FFDB, #00F7CE, #009B81, #006D5B);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-component a {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-size: 50px;
+}
+
+img {
+  position: absolute;
+  height: 700px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.app-guide p {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  width: 90%;
+}
+
+.app-agreement p {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #f5f5f5; */
+  font-weight: 700;
+  font-size: 20px;
+  width: 90%;
+}
+@media(max-width: 768px) {
+  .app-component {
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    background: linear-gradient(#8A8AFF, #5C5CFF, #2E2EFF, #0000FF, #0000D1, #0000D1, #0000A3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+  }
+  img {
+    position: absolute;
+    height: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .app-guide p {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 20px;
+    width: 80%;
+  }
+  .app-agreement p {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 18px;
+    width: 80%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import page from "./HCR.zip";
+import image from "./vehicle.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="app">
+      <div className="app-component">
+        <h1>Sample Game</h1>
+        <div className="image">
+          <img src={image} alt="" />
+        </div>
+        <div className="app-desc">
+          <p>About the Game Description.. </p>
+        </div>
+        <div className="app-guide">
+          <p>To witness the full visual impact, click the download button</p>
+        </div>
+        <div className="app-agreement">
+          <p>
+            By continuing, you agree to our Conditions of Use and Privacy
+            Notice.
+          </p>
+        </div>
+        <a href={page} download="Index">
+          Download
         </a>
-      </header>
+      </div>
     </div>
   );
 }
