@@ -67,7 +67,7 @@ img {
     position: absolute;
     width: 90%;
     height: 90vh;
-    background: linear-gradient(#8A8AFF, #5C5CFF, #2E2EFF, #0000FF, #0000D1, #0000D1, #0000A3);
+    background: linear-gradient(#81FFEA, #54FFE3,#26FFDB, #00F7CE, #009B81, #006D5B);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -85,7 +85,6 @@ img {
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #f5f5f5;
     font-weight: 700;
     font-size: 20px;
     width: 80%;
@@ -95,7 +94,6 @@ img {
     top: 72%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #f5f5f5;
     font-weight: 700;
     font-size: 18px;
     width: 80%;
